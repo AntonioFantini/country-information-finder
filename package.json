@@ -1,0 +1,25 @@
+{
+  "name": "country-information-finder",
+  "version": "1.0.0",
+  "description": "A simple desktop application to check information about a given country",
+  "main": "main.js",
+  "dependencies": {
+    "key-emit":"^0.0.4",
+    "electron-prebuilt": "^1.2.0",
+    "https-proxy-agent": "^1.0.0",
+    "request": "^2.74.0"
+  },
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntonioFantini/country-information-finder.git"
+  },
+  "author": "Antonio Fantini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AntonioFantini/country-information-finder/issues"
+  },
+  "homepage": "https://github.com/AntonioFantini/country-information-finder#readme"
+}

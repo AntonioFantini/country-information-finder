@@ -1,0 +1,67 @@
+
+html{
+	background: #ffd800;
+	background: radial-gradient(ellipse at center, #ffd800 0%, red 100%);
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+body{
+	font: 14px/1.5 Arial, Helvetica, sans-serif;
+	color:#fff;
+}
+h1{
+    margin-left:30%;
+    color: black;
+}
+h2{
+    text-align: center;
+    margin-right: 80px;
+    color: black;
+}
+#searchcontainer{
+    display:inline-flex;
+    margin-left:30%;
+}
+#container{
+    padding-top:0px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+#container span{
+    margin-top:15px;
+    width:100%;
+    display:inline-flex;
+    border:1px solid black;
+    border-radius: 5px;
+    color:black;
+}
+#search-btn{
+    cursor:pointer;
+    background: url("../images/localize_24.png") no-repeat;
+    width: 34px;
+    height: 34px;
+}
+#location{
+    border-radius: 12px;
+    width: 250px;
+}
+
+::-webkit-input-placeholder {
+   font-style: italic;
+}
+#searchcontainer input:focus{
+    outline: none !important;
+}
+
+.customLabel{
+    width: 45% !important;
+    margin-right: 5px;
+}
+.tableContainer{
+  display: inline-flex;
+  width: 100%;
+}

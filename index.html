@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Country Information</title>
+  <link href="css/main.css" rel="stylesheet" type="text/css"/>
+  </head>
+  
+  <body>
+    <h1>Country Information</h1>
+    <div id="searchcontainer">
+      <input id="location" placeholder="Enter a location... (Ctrl +i for quick input)" type="text" ></input>
+      <div id="search-btn" alt="Search"></div>
+    </div>
+    <div id="container" style="display:none;">
+      <h2 id="locationName"></h2>
+       <div class="tableContainer">
+        <span class="customLabel">Capital: </span><span id="capital"></span>
+      </div>
+      <div class="tableContainer">
+        <span class="customLabel">Top level domain: </span><span id="topLevelDomain"></span>
+      </div>
+      <div class="tableContainer">
+        <span class="customLabel">Code: </span><span id="alpha3Code"></span>
+      </div>
+      <div class="tableContainer">
+        <span class="customLabel">Currencies: </span><span id="currencies"></span>
+      </div>
+      <div class="tableContainer">
+        <span class="customLabel">Calling Codes: </span><span id="callingCodes"></span>
+      </div>
+      <div class="tableContainer">
+        <span class="customLabel">Region: </span><span id="region"></span>
+      </div>
+      <div class="tableContainer">
+        <span class="customLabel">Languages: </span><span id="languages"></span>
+      </div>
+      <div class="tableContainer">
+        <span class="customLabel">Population: </span><span id="population"></span>
+      </div>
+      <div class="tableContainer">
+        <span class="customLabel">Borders: </span><span id="borders"></span>
+      </div>
+      <div class="tableContainer">
+         <span class="customLabel">Timezones: </span><span id="timezones"></span>
+      </div>
+    </div>
+
+  </body>
+
+  <script>
+    // You can also require other files to run in this process
+    require('./renderer.js')
+  </script>
+</html>
