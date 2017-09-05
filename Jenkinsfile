@@ -7,5 +7,10 @@ pipeline {
         load 'gates/communityartifactsversioning/RunGate.groovy'
       }
     }
+    stage('UniqueVerionsIdentifiers') {
+      steps {
+        load 'gates/uniqueversionsidentifiers/RunGate.groovy'
+      }
+    }
   }
 }
